@@ -1,0 +1,8 @@
+<div>
+    <h2>Agile Standup Reminders</h2>
+    <button (click)="getReminders()">Get Reminders</button>
+    <ul>
+      <li *ngFor="let reminder of reminders">{{ reminder }}</li>
+    </ul>
+  </div>
+  
